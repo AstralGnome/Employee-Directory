@@ -16,7 +16,7 @@ This employee-focused React application allows the user to search for employees 
 * [GitHub Repository](https://github.com/AstralGnome/Employee-Directory)
 
 ## Installation
-Use the link above to navigate to the Heroku Deployed Application. By default 100 random employees will print to the page. Filter them by first or last name by typing into the input field. All results can be sorted by either first or last name by clicking the appropriate button.
+Utilize the link above to navigate to the Heroku Deployed Application. By default 100 random employees will print to the page. Filter them by first or last name by typing into the input field. All results can be sorted by either first or last name by clicking the appropriate button.
 
 ## Usage Information
 Employees and managers benefit greatly from being able to view non-sensitive data about their employees. It is particularly helpful for them to be able to filter employees by name.
