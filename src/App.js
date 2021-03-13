@@ -12,7 +12,6 @@ class App extends React.Component {
 
   componentDidMount() {
     API.getUsers().then((res) => {
-      console.log(res)
       this.setState({
         users: res.data.results,
         results: res.data.results
@@ -40,7 +39,6 @@ class App extends React.Component {
   }
 
   handleButtonSort = event => {
-    // console.log(event.target.id)
     let sortFilter
     if (event.target.id === "sort-first") {
       sortFilter = this.state.users.sort((a,b) => a.name.first > b.name.first ? 1 : -1 )
