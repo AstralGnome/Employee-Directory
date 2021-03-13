@@ -17,9 +17,10 @@ function Header(props) {
         />
       </div>
       <div className="">
-        <button id="sort-first" className="mt-5 mr-3 ml-auto btn btn-primary" onClick={props.handleButtonSort}>First Name A-Z</button>
-        <button id="sort-last" className="mt-5 ml-3 mr-auto btn btn-primary" onClick={props.handleButtonSort}>Last Name A-Z</button>
+        <button id="sort-first" className="mt-5 mr-3 ml-auto btn btn-danger" onClick={props.handleButtonSort}>First Name A-Z</button>
+        <button id="sort-last" className="mt-5 ml-3 mr-auto btn btn-danger" onClick={props.handleButtonSort}>Last Name A-Z</button>
       </div>
+
     </div>
   );
 }
