@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/style.css"],"names":[],"mappings":"AAAA,yCACE,aACF,CAFA,oCACE,aACF,CAFA,2BACE,aACF","file":"main.27e8e67f.chunk.css","sourcesContent":[".form-control::placeholder {\r\n  color: rgb(204, 203, 203);\r\n}"]}
