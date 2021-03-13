@@ -5,8 +5,8 @@ function Body({ users }) {
       <div className="card-body">
         <h5 className="card-title">Special title treatment</h5>
         {/* Can probably use the uuid for sorting or whatever */}
-        {users.map((user) => (
-          <div className="table-responsive">
+        {users.map((user, i) => (
+          <div key={i} className="table-responsive">
             <table className="table">
               <thead>
                 <tr>
